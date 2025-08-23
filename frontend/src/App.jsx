@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Brands from './components/Brands';
 import LanguageDropdown from './components/LanguageDropdown';
 import ThemeDropdown from './components/ThemeDropdown';
+import Meditation from './components/Meditation.jsx';
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       {/* <Footer/> */}
       {/* <Navbar/> */}
       {/* <Brands/> */}
-      <LanguageDropdown/>
-      <ThemeDropdown/>  
+      {/* <LanguageDropdown/> */}
+      {/* <ThemeDropdown/>   */}
+      <Meditation/>
     </div>
   );
 }
