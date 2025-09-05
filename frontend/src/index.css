@@ -7,3 +7,11 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+.gradient-texture {
+  background: linear-gradient(
+    to right,
+    #f57c05,  /* deep orange */
+    #2196f3   /* bright blue */
+  );
+}
